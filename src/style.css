@@ -1,20 +1,33 @@
-*
-{
-    margin: 0;
-    padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 html,
-body
-{
-    height: 100vh;
-    font-family: 'Poppins';
+body {
+  height: 100vh;
+  font-family: "Poppins";
+  background-color: #181818;
 }
 
-.webgl
-{
-    position: fixed;
-    top: 0;
-    left: 0;
-    outline: none;
+.heading {
+  display: flex;
+  flex-direction: column;
+  color: #bbb;
+  position: fixed;
+  width: 100vw;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.heading > h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 3rem;
+}
+
+.webgl {
+  top: 0;
+  left: 0;
+  outline: none;
+  mix-blend-mode: exclusion;
 }
